@@ -1,0 +1,43 @@
+{
+  "rooms": {
+    "jk34z0": {},
+    "x5tyz8": {
+      "storedActivities": [
+        {
+          "type": "poll",
+          "state": "open | result | close",
+          "text": "How do you feel?",
+          "options": [
+            { "text": "Good", "votes": 0 },
+            { "text": "Okay", "votes": 0 }
+          ]
+        },
+        {
+          "type": "question",
+          "state": "open | result | close",
+          "text": "Explain how you feel",
+          "answers": [
+            { "text": "i feel Good", "user": "xyz" },
+            { "text": "i feel Okay", "user": "zyx" }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "text": "how do i ask a question?",
+          "upvotes": 0,
+          "answered": false
+        }
+      ],
+      "chat": [
+        {
+          "id": 1,
+          "text": "hello!",
+          "user": "Anonymous user 23",
+          "timestamp": "1:10:10::00:20:12"
+         }
+      ]
+    }
+  }
+}

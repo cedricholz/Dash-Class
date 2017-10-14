@@ -1,0 +1,60 @@
+ .container {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.title {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.input {
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  input {
+    width: 100%;
+  }
+}
+
+.questionQueue {
+  overflow-y: auto;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 5px;
+  background-color: #fcfcfc;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.upvotesNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.questionText {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}

@@ -1,0 +1,69 @@
+.container {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.header {
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+
+  &:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+}
+
+.titleBar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.toggleArrow {
+  display: flex;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat {
+  height: 200px;
+  padding: 0 20px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  // color: rgb(140, 185, 253);
+}
+
+.messageArea {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #eee;
+}
+
+.message {
+  font-size: 15px;
+  padding: 4px;
+}
+
+.input {
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    width: 100%;
+  }
+}
